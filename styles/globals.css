@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+  overflow-x: hidden;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.transit {
+  transition-duration: 800ms;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);;
+}
