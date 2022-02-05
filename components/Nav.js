@@ -10,7 +10,7 @@ const Nav = ({backgroundColor}) => {
          <img src={require('../public/full-logo.png').default.src} alt="" className='h-8 cursor-pointer hidden md:block'/>
       </div>
       <div className='flex'>
-          <img src={require('../public/search.png').default.src} className='h-8 cursor-pointer hidden md:block'/>
+          <img src={require('../public/Search.png').default.src} className='h-8 cursor-pointer hidden md:block'/>
           <img src={require('../public/menu.png').default.src} alt="" className='h-8 ml-8 cursor-pointer' />
       </div>
       </div>
